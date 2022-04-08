@@ -1,0 +1,13 @@
+package autotesting;
+
+public class UniqueStringListArray {
+
+	public static void main(String[] args) {
+		String a [] = {"Pikachu", "Caterpee", "Pidgeotto", "Bulbasaur", "Charmander", "Squirtle", "Krabby", "Primeape"};
+		String b [] = {"Pikachu", "Pidgeotto", "Charmander", "Taurus", "Krabby"};
+		
+		
+		
+	}
+
+}
