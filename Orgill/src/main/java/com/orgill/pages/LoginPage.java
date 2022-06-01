@@ -9,6 +9,6 @@ public class LoginPage extends Base {
 	
 	@FindBy (xpath="//a[@class='dropdown-toggle']") WebElement signIn;
 	@FindBy (id="popUserName") WebElement userName;
-	@FindBy (id)
+	@FindBy (id="")
 
 }
