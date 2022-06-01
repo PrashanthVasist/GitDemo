@@ -1,0 +1,24 @@
+package autotesting;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class YouTube {
+
+	public static void main(String[] args) throws IOException, FileNotFoundException {
+		
+		Properties prop = new Properties();
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir"+"/src/autotesting/YouTube.properties"));
+		prop.load(fis);
+		System.setProperty("webdriver.chrome.driver", prop.getProperty("getProp"));
+		WebDriver driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.get(prop.getProperty("URL"));
+	}
+
+}

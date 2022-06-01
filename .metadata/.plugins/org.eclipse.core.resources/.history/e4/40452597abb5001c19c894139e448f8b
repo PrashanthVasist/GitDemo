@@ -1,0 +1,4 @@
+getPropChrome=C:\\Users\\Prashanth\\MyJava\\chromedriver.exe
+getPropGecko=C:\\Users\\Prashanth\\MyJava\\geckodriver.exe
+url=https://www.twitter.com
+PhoneActString=Please enter a valid phone number.
